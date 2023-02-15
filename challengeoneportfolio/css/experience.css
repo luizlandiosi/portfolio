@@ -1,0 +1,89 @@
+.experience {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.experience__section__title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.experiencie__box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 4rem;
+}
+
+.experience__img {
+    width: 100%;
+}
+
+.experience__title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.experience__text {
+    font-size: .875rem;
+    font-weight: 500;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.experiencia__botao--repo {
+    width: 6.75rem;
+    height: 2.5rem;
+    color: var(--fuente-botao-repo);
+}
+
+.experiencia__botao--repo:hover {
+    background: var(--fondo-botao-repo-hover);
+}
+
+.experience__botao--demo {
+    width: 6rem;
+    height: 2.5rem;
+    color: var(--fuente-botao-demo);
+    background: var(--fondo-botao--demo);
+}
+
+.experience__botao--demo:hover {
+    background: var(--fondo-botao-demo-hover);
+}
+
+@media screen and (min-width: 1024px) {
+    .experience__section__title {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .experiencie__box {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .experience__img {
+        width: 65%;
+    }
+
+    .experience__title {
+        font-size: 1.375rem;
+    }
+
+    .experience__text {
+        font-size: 1rem;
+    }
+
+    .experiencia__botao--repo {
+        width: 7.25rem;
+        height: 3.188rem;
+    }
+
+    .experience__botao--demo {
+        width: 6.563rem;
+        height: 3.188rem;
+    }
+}

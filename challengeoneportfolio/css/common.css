@@ -1,0 +1,64 @@
+:root {
+    --fuente-texto: #000000;
+    --fuente-link: #464646;
+    --fuente-botao-repo: #2A7AE4;
+    --fuente-botao-demo: #FFFFFF;
+    --fondo-gris: #f9e3e3;
+    --fondo-azul: #c3d0e2;
+    --fondo-blanco: #FFFFFF;
+    --fondo-botao-repo-hover: #D0D0D4;
+    --fondo-botao--demo: #2A7AE4;
+    --fondo-botao-demo-hover: #1161CB;
+    --botao-border: #2A7AE4;
+    --border-menu: #060a11;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--fuente-texto);
+    background-color: var(--fondo-gris);
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: var(--fuente-link);
+    text-decoration: none;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    box-sizing: border-box;
+    border: .063rem solid var(--botao-border);
+    margin-right: 1rem;
+    font-size: .875rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+
+    button {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
